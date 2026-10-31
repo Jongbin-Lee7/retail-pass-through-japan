@@ -1,0 +1,19 @@
+# Data never goes into Git: licences, size, and Git history is forever.
+data/*
+!data/README.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# DuckDB / local databases
+*.duckdb
+*.duckdb.wal
+
+# Secrets and OS clutter
+.env
+.DS_Store
+Thumbs.db
+desktop.ini

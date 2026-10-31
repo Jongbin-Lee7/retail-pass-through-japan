@@ -1,0 +1,5 @@
+# Normalise line endings so Windows and Mac produce the same diffs
+* text=auto
+*.sql text eol=lf
+*.py  text eol=lf
+*.md  text eol=lf
